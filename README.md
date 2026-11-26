@@ -1,6 +1,6 @@
 # Nuvio Badges
 
-Nuvio ke liye badges: **✓ FHD + HIN** (1080p + Hindi) aur **✓ UHD + HIN** (4K + Hindi).
+Nuvio ke liye badges: **✓ FHD + HINDI** (1080p + Hindi) aur **✓ UHD + HINDI** (4K + Hindi).
 
 Nuvio mein ye URL add karein:
 
