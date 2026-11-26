@@ -4,7 +4,7 @@
       "id": "fhd-hin-combined",
       "groupId": "resolution",
       "name": "✓ FHD + HINDI",
-      "pattern": "(?is)^(?=.*(?<![a-z0-9])(1080p|1080|fhd|full[ .-]?hd)(?![a-z0-9]))(?=.*(?<![a-z0-9])(hindi|hin)(?![a-z0-9]))",
+      "pattern": "(?is)^(?!.*(?<![a-z0-9])((hd|hq)[ .-]?cam([ .-]?rip)?|cam[ .-]?rip|cam|hd[ .-]?ts|tele[ .-]?sync|hd[ .-]?tc|tele[ .-]?cine|pre[ .-]?dvd|pdvd|dvd[ .-]?scr)(?![a-z0-9]))(?=.*(?<![a-z0-9])(1080p?|fhd|full[ .-]?hd)(?![a-z0-9]))(?=.*(?<![a-z0-9])(hindi|hin)(?![a-z0-9]))",
       "imageURL": "https://raw.githubusercontent.com/Shreyansh-1255/Nuvio-badge/main/fhd-hin.svg",
       "tagColor": "#FF0877F9",
       "borderColor": "#FFFFD600"
@@ -13,10 +13,28 @@
       "id": "uhd-hin-combined",
       "groupId": "resolution",
       "name": "✓ UHD + HINDI",
-      "pattern": "(?is)^(?!.*(?<![a-z0-9])(1080p?|720p|576p|480p|fhd|full[ .-]?hd)(?![a-z0-9]))(?=.*(?<![a-z0-9])(2160p?|4k|uhd)(?![a-z0-9]))(?=.*(?<![a-z0-9])(hindi|hin)(?![a-z0-9]))",
+      "pattern": "(?is)^(?!.*(?<![a-z0-9])((hd|hq)[ .-]?cam([ .-]?rip)?|cam[ .-]?rip|cam|hd[ .-]?ts|tele[ .-]?sync|hd[ .-]?tc|tele[ .-]?cine|pre[ .-]?dvd|pdvd|dvd[ .-]?scr)(?![a-z0-9]))(?!.*(?<![a-z0-9])(1080p?|720p|576p|480p|fhd|full[ .-]?hd)(?![a-z0-9]))(?=.*(?<![a-z0-9])(2160p?|4k|uhd)(?![a-z0-9]))(?=.*(?<![a-z0-9])(hindi|hin)(?![a-z0-9]))",
       "imageURL": "https://raw.githubusercontent.com/Shreyansh-1255/Nuvio-badge/main/uhd-hin.svg",
       "tagColor": "#FF0877F9",
       "borderColor": "#FF00C853"
+    },
+    {
+      "id": "hindi-only",
+      "groupId": "language",
+      "name": "HINDI",
+      "pattern": "(?is)^(?=.*(?<![a-z0-9])(hindi|hin)(?![a-z0-9]))(?!(?!.*(?<![a-z0-9])((hd|hq)[ .-]?cam([ .-]?rip)?|cam[ .-]?rip|cam|hd[ .-]?ts|tele[ .-]?sync|hd[ .-]?tc|tele[ .-]?cine|pre[ .-]?dvd|pdvd|dvd[ .-]?scr)(?![a-z0-9]))(?=.*(?<![a-z0-9])(1080p?|fhd|full[ .-]?hd)(?![a-z0-9])))(?!(?!.*(?<![a-z0-9])((hd|hq)[ .-]?cam([ .-]?rip)?|cam[ .-]?rip|cam|hd[ .-]?ts|tele[ .-]?sync|hd[ .-]?tc|tele[ .-]?cine|pre[ .-]?dvd|pdvd|dvd[ .-]?scr)(?![a-z0-9]))(?!.*(?<![a-z0-9])(1080p?|720p|576p|480p|fhd|full[ .-]?hd)(?![a-z0-9]))(?=.*(?<![a-z0-9])(2160p?|4k|uhd)(?![a-z0-9])))",
+      "imageURL": "https://raw.githubusercontent.com/Shreyansh-1255/Nuvio-badge/main/hindi.svg",
+      "tagColor": "#FF0877F9",
+      "borderColor": "#FFFFFFFF"
+    },
+    {
+      "id": "theater-rec",
+      "groupId": "source",
+      "name": "THEATER REC.",
+      "pattern": "(?is)(?<![a-z0-9])((hd|hq)[ .-]?cam([ .-]?rip)?|cam[ .-]?rip|cam|hd[ .-]?ts|tele[ .-]?sync|hd[ .-]?tc|tele[ .-]?cine|pre[ .-]?dvd|pdvd|dvd[ .-]?scr)(?![a-z0-9])",
+      "imageURL": "https://raw.githubusercontent.com/Shreyansh-1255/Nuvio-badge/main/theater-rec.svg",
+      "tagColor": "#FF0877F9",
+      "borderColor": "#FFFF1744"
     }
   ]
 }
