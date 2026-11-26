@@ -13,7 +13,7 @@
       "id": "uhd-hin-combined",
       "groupId": "resolution",
       "name": "✓ UHD + HINDI",
-      "pattern": "(?is)^(?=.*(?<![a-z0-9])(2160p?|4k|uhd)(?![a-z0-9]))(?=.*(?<![a-z0-9])(hindi|hin)(?![a-z0-9]))",
+      "pattern": "(?is)^(?!.*(?<![a-z0-9])(1080p?|720p|576p|480p|fhd|full[ .-]?hd)(?![a-z0-9]))(?=.*(?<![a-z0-9])(2160p?|4k|uhd)(?![a-z0-9]))(?=.*(?<![a-z0-9])(hindi|hin)(?![a-z0-9]))",
       "imageURL": "https://raw.githubusercontent.com/Shreyansh-1255/Nuvio-badge/main/uhd-hin.svg",
       "tagColor": "#FF0877F9",
       "borderColor": "#FF00C853"
